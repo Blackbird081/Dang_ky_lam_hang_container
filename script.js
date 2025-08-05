@@ -455,9 +455,9 @@ function generateA4HTML() {
                         <img src="logo.png" alt="Logo" style="width: 90px; height: auto; opacity: 0.15; position: absolute; top: 50%; transform: translateY(-50%); z-index: 1;">
                         <div style="position: relative; z-index: 2; padding-left: 105px;">
                             <h3 style="font-size: 1.125rem; font-weight: 700; margin:0 0 5px 0;">${pdfText.companyName[state.currentLang]}</h3>
-                            <p style="margin: 0; font-size: 10pt;">${pdfText.phone[state.currentLang]}: 0901196093</p>
+                            <p style="margin: 0; font-size: 10pt;">${pdfText.phone[state.currentLang]}:0903758608; 0901196093</p>
                             <p style="margin: 0; font-size: 10pt;">${pdfText.companyAddress[state.currentLang]}</p>
-                            <p style="margin: 0; font-size: 10pt;">${pdfText.email[state.currentLang]}: doc@tanthuanport.vn</p>
+                            <p style="margin: 0; font-size: 10pt;">${pdfText.email[state.currentLang]}: kdkt.tt@saigonport.vn</p>
                         </div>
                     </td>
                     <td style="width: 40%; vertical-align: top; text-align: right;">
@@ -730,4 +730,5 @@ function init(showWelcome = true) {
 document.addEventListener('DOMContentLoaded', () => {
     init();
     bindEvents();
+
 });
